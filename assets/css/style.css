@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+span, a{
+  color: #FF9900;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 50px;
+}
+
+p, #footer{
+  color: #767575;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#hero{
+ width: 592px;
+ margin: 0 auto 72px;
+}
+
+#hero img{
+  margin-bottom: 28px;
+}
+
+#footer a + a{ /*Seletor para escolher o último a ser declarado na estrutura HTML: escolha o link anterior a este link que queremos usar (ou seja, se tiver um link antes deste que queremos usar, o seletor funcionará e pegará o último link pois não tem nada depois deste link)*/
+  margin-left: 16px;
+}
+
+#line{
+  width: 568px;
+  height: 0;
+  margin: auto; /*Se definirmos a largura de algo, precisamos do margin automático para se ajustar à página e se dividir de forma igual*/
+  border: 1px solid #f4e3cb;
+  margin-bottom: 18px;
+}
+
+#balls{
+  position: fixed; /*As bolinhas ficam fixas e se eu scrollar a página, elas scrollam junto. Para posicionar um fixed, usamos as propriedades como top, bottom, right e left.*/
+  right: 0;
+  bottom: 0;
+}
