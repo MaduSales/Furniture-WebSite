@@ -10,7 +10,6 @@ Projeto de um website que realiza a venda de móveis customizados. Foi criado du
 ## Tecnologias Usadas:
 - HTML;
 - CSS;
-- JavaScript;
 <br>
 
 
